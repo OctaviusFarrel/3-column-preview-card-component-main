@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5em;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    height: 100%;
+    width: 850px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    border-radius: 10px;
+}
+
+.card {
+    padding: 48px;
+}
+
+.card:nth-child(1) {
+    background-color: var(--bright-orange);
+}
+
+.card:nth-child(2) {
+    background-color: var(--dark-cyan);
+}
+
+.card:nth-child(3) {
+    background-color: var(--very-dark-cyan);
+}
